@@ -1,0 +1,158 @@
+#header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#header .logo {
+  float: left;
+}
+#header .logo a img {
+  width: 190px;
+  height: 25px;
+}
+#header .app {
+  float: right;
+}
+#header .app a img {
+  width: 34px;
+  height: 34px;
+}
+#search {
+  padding: 10px;
+}
+#search .form-search {
+  display: flex;
+}
+#search .form-search input[type="text"] {
+  flex: 1;
+  padding-left: 18px;
+  margin-right: 10px;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
+#search .form-search input[type="button"] {
+  width: 63px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ff841d;
+  color: #fff;
+}
+#menu {
+  border-top: 10px solid #f1f1f1;
+}
+#menu .item {
+  text-align: center;
+}
+#menu .item a img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+#menu .item a p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+#menu .item:nth-last-child(-n+4) {
+  display: none;
+}
+#discount .discount-title {
+  height: 35px;
+  line-height: 35px;
+  background-color: #ff841d;
+  padding: 0 10px;
+}
+#discount .discount-title span {
+  font-size: 16px;
+  color: #fff;
+}
+#discount .discount-title img {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+}
+#discount .discount-product .media .media-left {
+  padding-right: 10px;
+}
+#discount .discount-product .media .media-left a img {
+  width: 100px;
+  height: 100px;
+}
+#discount .discount-product .media .media-body {
+  padding-left: 10px;
+}
+#discount .discount-product .media .media-body .media-heading {
+  height: 50px;
+  line-height: 24px;
+  font-size: 16px;
+}
+#discount .discount-product .media .media-body .other {
+  color: #a1a1a1;
+  font-size: 12px;
+  margin-top: 25px;
+}
+#discount .discount-product .media .media-body .other .other-shop {
+  float: left;
+}
+#discount .discount-product .media .media-body .other .other-talk {
+  float: right;
+}
+#discount .discount-more {
+  padding: 10px;
+}
+#discount .discount-more a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #F4F4F4;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+}
+#footer .login-top {
+  margin-top: 10px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #efefef;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  text-align: center;
+}
+#footer .login-top span {
+  float: left;
+}
+#footer .login-top .login {
+  width: 30%;
+}
+#footer .login-top .register {
+  width: 30%;
+  border-right: 1px solid #c4c4c4;
+  border-left: 1px solid #c4c4c4;
+}
+#footer .login-top .goTop {
+  width: 40%;
+}
+#footer .login-top .goTop img {
+  width: 16px;
+  height: 16px;
+  margin-top: -4px;
+}
+#footer .login-bottom {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+}
+#footer .login-bottom span {
+  margin-right: 5px;
+}
+#footer .login-bottom span:first-child {
+  color: red;
+}
+#footer .login-bottom p {
+  margin-bottom: 10px;
+}
